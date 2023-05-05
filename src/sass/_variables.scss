@@ -3,10 +3,12 @@
 
 $main-color: #334d5c;
 $creamy: #eae3d6;
+$footer-color: #393a3b;
 
 $custom-colors : (
     "main-color": $main-color,
     "creamy": $creamy,
+    "footer-color": $footer-color,
 );
 
 $theme-colors : map-merge($theme-colors , $custom-colors);
